@@ -1,0 +1,6 @@
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\DAL\bin\Release\DAL.dll
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\DAL\bin\Release\DAL.pdb
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\DAL\obj\Release\DAL.dll
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\DAL\obj\Release\DAL.pdb

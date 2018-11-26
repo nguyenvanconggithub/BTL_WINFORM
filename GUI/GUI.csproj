@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78B31726-8348-4DE8-A0E3-2C7E899C61CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChinh.Designer.cs">
+      <DependentUpon>FormChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDangNhap.Designer.cs">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Duyet Tin Moi\DuyetTinMoi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Duyet Tin Moi\DuyetTinMoi.Designer.cs">
+      <DependentUpon>DuyetTinMoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\QuanLyTinDaDuyet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\QuanLyTinDaDuyet.Designer.cs">
+      <DependentUpon>QuanLyTinDaDuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\ThongTinChiTiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\ThongTinChiTiet.Designer.cs">
+      <DependentUpon>ThongTinChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\Tin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\Tin.Designer.cs">
+      <DependentUpon>Tin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Them Nguoi Tim Viec\ThemNguoiTimViec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Nguoi Tim Viec\Them Nguoi Tim Viec\ThemNguoiTimViec.Designer.cs">
+      <DependentUpon>ThemNguoiTimViec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Duyet Tin Moi\DuyetTinMoi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Duyet Tin Moi\DuyetTinMoi.Designer.cs">
+      <DependentUpon>DuyetTinMoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\QuanLyTinDaDuyet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\QuanLyTinDaDuyet.Designer.cs">
+      <DependentUpon>QuanLyTinDaDuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\ThongTinChiTiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\ThongTinChiTiet.Designer.cs">
+      <DependentUpon>ThongTinChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\Tin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\Tin.Designer.cs">
+      <DependentUpon>Tin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Them Tin Tuyen Dung\ThemTinTuyenDung.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Quan Ly Tuyen Dung\Them Tin Tuyen Dung\ThemTinTuyenDung.Designer.cs">
+      <DependentUpon>ThemTinTuyenDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Them Xoa Tai Khoan\ThemXoaTaiKhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Them Xoa Tai Khoan\ThemXoaTaiKhoan.Designer.cs">
+      <DependentUpon>ThemXoaTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tim Kiem\KetQuaTimKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tim Kiem\KetQuaTimKiem.Designer.cs">
+      <DependentUpon>KetQuaTimKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tim Kiem\ThongTinChiTiet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tim Kiem\ThongTinChiTiet.Designer.cs">
+      <DependentUpon>ThongTinChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tim Kiem\TimKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tim Kiem\TimKiem.Designer.cs">
+      <DependentUpon>TimKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tim Kiem\Tin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tim Kiem\Tin.Designer.cs">
+      <DependentUpon>Tin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormChinh.resx">
+      <DependentUpon>FormChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDangNhap.resx">
+      <DependentUpon>FormDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Nguoi Tim Viec\Duyet Tin Moi\DuyetTinMoi.resx">
+      <DependentUpon>DuyetTinMoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\QuanLyTinDaDuyet.resx">
+      <DependentUpon>QuanLyTinDaDuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Nguoi Tim Viec\Quan Ly Tin Da Duyet\Tin.resx">
+      <DependentUpon>Tin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Nguoi Tim Viec\Them Nguoi Tim Viec\ThemNguoiTimViec.resx">
+      <DependentUpon>ThemNguoiTimViec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Tuyen Dung\Duyet Tin Moi\DuyetTinMoi.resx">
+      <DependentUpon>DuyetTinMoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\QuanLyTinDaDuyet.resx">
+      <DependentUpon>QuanLyTinDaDuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Tuyen Dung\Quan Ly Tin Da Duyet\Tin.resx">
+      <DependentUpon>Tin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan Ly Tuyen Dung\Them Tin Tuyen Dung\ThemTinTuyenDung.resx">
+      <DependentUpon>ThemTinTuyenDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Them Xoa Tai Khoan\ThemXoaTaiKhoan.resx">
+      <DependentUpon>ThemXoaTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tim Kiem\TimKiem.resx">
+      <DependentUpon>TimKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tim Kiem\Tin.resx">
+      <DependentUpon>Tin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\salary.png" />
+    <None Include="Images\image_PictureBox.png" />
+    <None Include="Images\locate.png" />
+    <None Include="Images\login_background.png" />
+    <Content Include="Images\NguoiTimViec_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\QuanLyTuyenDung_icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Images\ThemXoaAcc.png" />
+    <None Include="Images\unlock.png" />
+    <None Include="Images\lock.png" />
+    <None Include="Images\TimKiem_ICON.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{22140ee7-6bae-4a23-bd6a-0a9201bf2734}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

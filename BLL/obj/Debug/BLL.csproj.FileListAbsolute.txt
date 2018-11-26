@@ -1,0 +1,9 @@
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\bin\Debug\BLL.dll
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\bin\Debug\BLL.pdb
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\bin\Debug\DAL.dll
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\bin\Debug\DAL.pdb
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\obj\Debug\BLL.dll
+D:\VS Code\Quản Lý Người Tìm Việc - Việc Tìm Người\BLL\obj\Debug\BLL.pdb
